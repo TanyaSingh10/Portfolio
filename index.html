@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tanya's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo-container">
+        <img src="IMG_8877.jpg" alt="Tanya's Photo" class="profile-pic" />
+        <h1 class="logo">Tanya Singh</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" title="Toggle Dark Mode">🌙</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Hi! I'm <span>Tanya Singh</span></h2>
+      <p>
+        You can check my LinkedIn, GitHub and LeetCode profile below :D</p>
+      
+
+
+      <div class="hero-buttons">
+        <!-- <button class="btn" id="open-modal">📄 View Resume</button> -->
+        <a href="https://www.linkedin.com/in/tanya-singh-6539b524b/" target="_blank" class="btn btn-linkedin"> LinkedIn</a>
+        <p><a href="https://github.com/TanyaSingh10" target="_blank" class="btn btn-github">GitHub</a></p>
+        <p><a href="https://leetcode.com/u/tanyaeco/" target="_blank" class="btn btn-leetcode">LeetCode</a></p>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>ABOUT ME</h2>
+    <p><center>
+      I'm a Computer Science Major at Lovely Professional University. I'm driven by curiosity and a deep interest in Cloud Computing and DevOps practices, which I've explored through hands-on projects using AWS, Docker, Jenkins, and Python, I've built and automated scalable, cloud-native systems that prioritize efficiency and reliability.
+    </center></p>
+    <p><center>
+      I thrive on understanding systems deeply and finding smarter ways to build and improve them, whether through certifications, impactful projects, or volunteering for causes I care about. Tech innovation excites me.
+    </center></p>
+    <p><center>
+       I’m always looking to turn ideas into impact!!
+    </center></p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>SKILLS</h2>
+    <ul class="skills-list">
+      <li>Languages: Python, Java, C++, JavaScript</li>
+      <li>Frontend: HTML, CSS, React</li>
+      <li>Backend: Node.js, MongoDB, MySQL</li>
+      <li>DevOps: AWS, Docker, Jenkins, CloudWatch, Lambda</li>
+      <li>Tools: Git, GitHub, Maven, WordPress, Apache CloudStack</li>
+      <li>Soft Skills: Project Management, Communication, Problem Solving</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>PROJECTS</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Deploying SQL Server Databases on Amazon RDS</h3>
+        <p>Configured and managed SQL Server databases on AWS RDS, focusing on high availability, automated backups, IAM security roles, and real-time performance monitoring with CloudWatch.</p>
+      </div>
+      <div class="project-card">
+        <h3>Movie Ticket Booking System</h3>
+        <p>Developed a Python-MySQL based movie booking system that included dual-database architecture (movie details + snack inventory) and a seamless real-time ticketing experience.</p>
+      </div>
+      <div class="project-card">
+        <h3>Governing EC2 Instances using CloudWatch</h3>
+        <p>Managed EC2 lifecycle and performance by leveraging AWS CloudWatch for setting alarms, tracking metrics, and optimizing resource use. Resulted in 20% improved instance efficiency.</p>
+      </div>
+      <div class="project-card">
+        <h3>Resizing AWS Instances with Lambda</h3>
+        <p>Created a Lambda function using Python and Boto3 to automatically scale EC2 instances based on performance metrics. Integrated with CloudWatch to optimize system speed and cost.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section">
+    <h2>CERTIFICATIONS</h2>
+    <ul>
+      <li>Microsoft Certified: Azure Administrator Associate – Apr 2024</li>
+      <li>IBM DevOps and Software Engineering (Coursera) – Dec 2024</li>
+      <li>AWS Cloud Computing (Gokboru Tech) – Aug 2024</li>
+      <li>Understanding Cloud Fundamentals (LinkedIn Learning) – Feb 2024</li>
+      <li>Communication Strategies for a Virtual Age (Coursera) – Jan 2024</li>
+    </ul>
+
+  </section>
+  <section id="contact" class="section">
+    <h2>CONTACT ME</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tanya Singh</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+<!-- Resume Modal -->
+  <!-- <div class="modal" id="resume-modal">
+    <div class="modal-content">
+      <span class="close-btn" id="close-modal">&times;</span>
+      <h3>My Resume</h3>
+      <embed src="GCVTanya.pdf" width="100%" height="500px" type="application/pdf" />
+      <a href="GCVTanya.pdf" download class="btn download-inside">⬇️ Download PDF</a>
+    </div>
+  </div> -->
+
+
+
+</body>
+</html>
